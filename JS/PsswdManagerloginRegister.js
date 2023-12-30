@@ -269,6 +269,9 @@ document.getElementById("usrEmailInpReg").value = "";
    document.getElementById("usrNameInpReg").value = "";
     document.getElementById("registerForm").style.transform = "translateY(520px)";
     document.getElementById("loginform").style.transform = "translateY(0px)";
+document.querySelector(".signin_with_google").style.transform = "translateY(0px) translateX(0px)";
+    document.querySelector(".signin_with_github").style.transform = "translateY(0px) translateX(0px)";
+  
 
     setTimeout(() => {
         document.getElementById("successLoaderContainer").classList.remove("OpacityActive");
